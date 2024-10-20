@@ -37,3 +37,12 @@ This lab assignment focuses on working with Microsoft Azure cloud services. The 
 - Implement mapper, reducer, and shuffler functions
 - Use Azure Blob Storage to store and retrieve input data
 - Deploy and test the entire solution on Azure
+
+
+
+Run Locust for 3 minutes each on (i) locally deployed numericalintegral, (ii) VM scaleset with 2 VMs where you shutdown the VM running the workload after 1 minute, (iii) autoscale webapp initially configured with 1 instance and max 3, (iv) autoscale function. Save locust output. Plot a graph of number of successful requests/seconds with one line for each of the four cases above. Paste the graph below.
+
+![alt text](image.png "Title")
+
+
+We Ran Locust for 3 minutes each on (i) locally deployed numericalintegral, (ii) VM scaleset with 2 VMs where we shutdown the VM running the workload after 1 minute, (iii) autoscale webapp initially configured with 1 instance and max 3, (iv) autoscale function. This is a graph of number of successful requests/seconds with one line for each of the four cases above.
