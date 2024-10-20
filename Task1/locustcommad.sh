@@ -1,0 +1,1 @@
+locust -f locustfile.py  -u 100 -r 10 --run-time 3m --host=http://127.0.0.1:5000/ --csv=locust_report --headless

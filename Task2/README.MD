@@ -1,0 +1,3 @@
+- I setup the vms using the commands in thevmssSetupCommands.sh file, they are not ordered its just the history of commands I used.
+- I had to setup some rules for the load blancer to be able to ssh and to redirect traffic on port 80 of the load blancer  to port 80 of the instances.
+- The number of concurrent users during load testing with was kept the same as the previous task 100 and the spawn rate 10.
